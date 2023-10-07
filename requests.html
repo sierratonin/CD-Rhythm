@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <title>CD-RHYTHM - REQUESTS</title>
+    <meta name="description" content="Review requests for music lovers.">
+    <link rel="icon" type="image/x-icon" href="photos/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="photos/cdrhythm-logo.png" alt="CD-RHYTHM logo"></a>
+    </header>
+    <div id="wrapper">
+        <nav>
+            <a href="index.html">HOME</a> &nbsp;
+            <a href="reviews.html">REVIEWS</a> &nbsp;
+            <a href="favorites.html">FAVORITES</a> &nbsp;
+            <a href="playlists.html">PLAYLISTS</a>
+            <hr>
+        </nav>
+
+        <h1>REQUEST A REVIEW!</h1>
+        <hr class="between">
+
+        <form action="#">
+            <label for="name">Name</label> <br>
+            <input type="text" name="name" id="name"> <br>
+
+            <label for="email">Email</label> <br>
+            <input type="text" name="email" id="email"> <br>
+
+            <div id="typeRequest"><p>Request Type</p></div>
+            <input type="radio" name="requestType" id="song" value="song"> 
+            <label for="song">Song</label> <br>
+            <input type="radio" name="requestType" id="album" value="album"> 
+            <label for="album">Album</label> <br>
+            <input type="radio" name="requestType" id="ep" value="ep"> 
+            <label for="ep">EP</label> <br>
+            <input type="radio" name="requestType" id="mixtape" value="mixtape"> 
+            <label for="mixtape">Mixtape</label> <br>
+
+            <label for="artist">Artist(s)*</label> <br>
+            <input type="text" name="artist" id="artist" required> <br>
+
+
+            <label for="title">Title*</label> <br>
+            <input type="text" name="title" id="title" required> <br >
+
+            <label for="comments">Additional Comments</label>
+            <textarea name="comments" id="comments"></textarea> <br>
+
+            <input type="submit">
+
+        </form>
+   
+    </div>
+
+    <footer>
+        <table id="footerNav">
+            <tr>
+                <th><a href="index.html">HOME</a></th>
+                <td><a href="artists.html">ARTISTS</a></td>
+            </tr>
+            <tr>
+                <th><a href="genres.html">GENRES</a></th>
+                <td><a href="playlists.html">PLAYLISTS</a></td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <div id="copyright">
+            &copy; 2023 CD-RHYTHM <br>
+            Website by <a href="mailto:semckinl@asu.edu">Sierra McKinley</a>
+        </div>
+    </footer>
+</body>
+</html>

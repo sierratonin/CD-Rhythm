@@ -1,0 +1,333 @@
+﻿/** {
+    border: 1px solid red;
+}*/
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+        color: #ECBB63;
+}
+body
+{
+    background-image: url(photos/background.png);
+    font-family: Helvetica, sans-serif
+}
+header {
+    padding-top: 50px;
+    text-align: center;
+    height: 50%;
+}
+header img {
+    width: 60%;
+    max-height: 200px;
+    width: auto;
+}
+#wrapper {
+    padding: 10px 20px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    background: rgb(64.3, 55.3, 76.1, 0.5);
+    border-radius: 20px;
+    color: black;
+    font-size: 20px;
+}
+nav {
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+}
+nav a {
+    padding: 15px;
+    color: #49AF68;
+    text-decoration: none;
+    font-size: 150%;
+ }
+nav a:hover {
+    color: #ECBB63;
+}
+hr {
+    border: 2px solid black;
+}
+.between{
+    border: 2px dashed black;
+}
+.review a{
+    color: black;
+    text-decoration: none;
+}
+.review a:hover{
+    color: #49AF68;
+}
+.rating{
+    padding-left: 3%;
+}
+h1 {
+    font-size: 70px;
+    color: black;
+    font-family: monospace, 'Times New Roman';
+    margin: 0;
+    padding-left: 3%;
+}
+h3 {
+    margin-top: 0;
+    padding-left: 3%;
+    font-size: 30px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+h4 {
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 4%;
+    margin: 0;
+}
+h5{
+    margin: 5%;
+    margin-bottom: 0;
+}
+h4 a:hover {
+    color: #8C9FBF;
+}
+h4 a{
+    color: black;
+    text-decoration:none;
+}
+.row {
+    display: flex;
+}
+.column {
+    float: left;
+    padding: 10px;
+}
+.left {
+    width: 35%;
+}
+.right {
+    width: 65%;
+}
+.left img {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: 3px solid black;
+    margin: 0 auto;
+}
+p{
+    padding-left: 3%;
+    margin-top: 0;
+}
+.right img{
+    display: block;
+    height: 40px;
+}
+.each {
+    float: left;
+    width: 33.33%;
+    padding: 7px;
+    text-align: center;
+}
+.albums{
+    padding-left: 2%;
+}
+.albums img{
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+    padding: 0;
+}
+.genre{
+    padding-left: 2%;
+}
+.genre img {
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+    padding: 0;
+}
+a img:hover {
+    border: 2px solid #ECBB63;
+}
+header img:hover {
+    opacity: 0.8;
+    border: 0;
+}
+.albums p {
+    font-size: 15px;
+}
+.hide{
+    visibility: hidden;
+}
+footer {
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+#footerNav{
+    margin-left: auto;
+    margin-right: auto;
+}
+#footerNav th{
+    text-align: left;
+}
+#footerNav td{
+    text-align: right;
+    padding-left: 20px;
+}
+#footerNav a{
+    color: white;
+    text-decoration: none;
+}
+#footerNav a:hover {
+    color: #FFE4B3;
+}
+#copyright{
+    padding-top: 7px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+}
+#copyright a{
+    color: white;
+}
+#copyright a:hover{
+    color: #ECBB63;
+}
+
+input {
+    margin: 10px 3% 15px 3%;
+}
+input[type=text]{
+    width: 90%;
+    height: 35px;
+    border-radius: 50px;
+    border: none;
+    background-color: #ECBB63;
+    outline: 1px solid black;
+    padding-left: 20px;
+    box-shadow: black 10px 10px;
+}
+textarea {
+    width: 90%;
+    margin: 10px 0 15px 3%;
+    height: 120px;
+    border-radius: 30px;
+    border: none;
+    background-color: #ECBB63;
+    outline: 1px solid black;
+    resize: none;
+    padding-left: 20px;
+    padding-top: 20px;
+    box-shadow: black 10px 10px;
+}
+label {
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 1%;
+    margin: 0;
+    font-weight: bold;
+    font-size: 30px;
+}
+input[type=radio] {
+    margin-right: 0;
+}
+label {
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 1%;
+    margin: 0;
+    font-weight: bold;
+    font-size: 30px;
+}
+label[for=song] {
+    font-size: 20px;
+}
+label[for=album] {
+    font-size: 20px;
+}
+label[for=ep] {
+    font-size: 20px;
+}
+label[for=mixtape] {
+    font-size: 20px;
+}
+#typeRequest p {
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 1%;
+    margin: 0;
+    font-weight: bold;
+    font-size: 30px;
+}
+input[type=submit] {
+    width: 20%;
+    height: 35px;
+    border-radius: 50px;
+    border: none;
+    background-color: #49AF68;
+    outline: 1px solid black;
+    box-shadow: black 10px 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 100%;
+    display: block;
+    margin: 10px auto 20px auto;
+}
+.playlist{
+    padding-left: 2%;
+    width: 100%;
+    text-align: left;
+    margin: 0 auto;
+    border-spacing: 10px;
+}
+.playlist img{
+    height: 50px;
+    border: 2px solid black;
+}
+.songTitle{
+    font-weight: bold;
+}
+iframe {
+    display: block;
+    border-radius: 12px;
+    width:90%; 
+    height: 152px;
+    padding-left: 0px;
+    margin: 0 auto;
+    border: none;
+}
+.about .left{
+    width: 65%
+}
+.about .right {
+    width: 35%
+}
+.about .right img {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: 3px solid black;
+    margin: 0 auto;
+}
+.left h4{
+    padding-left: 1%;
+}
+video{
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+}
+.musicVideo iframe{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin-top:0;
+    padding-top: 15%;
+    border: none;
+}
+.songInfo{
+    text-align: center;
+
+}
